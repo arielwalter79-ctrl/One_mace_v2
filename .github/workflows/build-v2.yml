@@ -21,10 +21,11 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
 
       - name: Build
+        working-directory: OneMace-v2
         run: gradle build
 
       - name: Upload JAR
         uses: actions/upload-artifact@v4
         with:
           name: OneMace-v2
-          path: build/libs/onemace-2.0.0.jar
+          path: OneMace-v2/build/libs/onemace-2.0.0.jar
