@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.thegreenvillagesmp.onemace.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CraftingResultSlotMixin",
+    "SlotMixin",
+    "BundleItemMixin",
+    "HopperBlockEntityMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
